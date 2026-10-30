@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101820"><title>TOTK Recomp — Browser Prototype</title><link rel="stylesheet" href="./style.css"></head>
+<body><main><header><p class="eyebrow">EXPERIMENTAL WEB PORT</p><h1>TOTK Recomp</h1><p class="subtitle">Browser runtime bring-up · no game data included</p></header>
+<section class="viewer"><canvas id="screen" width="960" height="540" aria-label="Runtime preview"></canvas><div id="overlay">Starting browser runtime…</div></section>
+<section class="panel"><h2>Runtime status</h2><dl id="status"><dt>WebAssembly</dt><dd>Checking…</dd><dt>Graphics</dt><dd>Checking…</dd><dt>Local storage</dt><dd>Checking…</dd></dl><button id="choose">Select local game dump…</button><input id="gamefile" type="file" accept=".xci,.nsp,.nca" hidden><p id="file-note">Files are inspected locally by this page and are not uploaded. This prototype does not yet extract or run a game dump.</p></section>
+<footer>Unofficial community project. Requires your own legally obtained game dump and keys. No Nintendo game code, assets, or keys are distributed here.</footer></main><script type="module" src="./app.js"></script></body></html>
